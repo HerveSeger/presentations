@@ -42,7 +42,7 @@
 				z-index: 1000;
 				font-size: 22px;
 			}
-			.reveal h1, .reveal h2, .reveal h3 {
+			.reveal h1, .reveal h2, .reveal h3, .reveal h4 {
 				font-weight: 200;
 			}
 			.reveal h1 {
@@ -78,6 +78,12 @@
 			}
 			.reveal h3~ul {
 				margin-top: 20px;
+			}
+			.reveal blockquote {
+				width: 100%;
+			}
+			.reveal blockquote>.author {
+				text-align: right;
 			}
 		</style>
 	</head>
@@ -115,8 +121,8 @@
 					<h2>Provides guidance for developers</h2>
 					<ul>
 						<li>Responsiveness (Mobile first approach)</li>
-						<li>Performance</li>
 						<li>Accessibility</li>
+						<li>Performance</li>
 						<li>Development Frameworks</li>
 					</ul>
 				</section>
@@ -141,6 +147,27 @@
 					</section>
 				</section>
 
+
+				<!-- Accessibility-->
+				<section>
+					<h3>Accessibility</h3>
+					<section fullscreen-img="img/a11y-what-is-it.jpg" fullscreen-size="length" fullscreen-width="280px" fullscreen-height="280px"></section>
+				</section>
+
+
+				<!-- Accessibility-->
+				<section>
+					<blockquote cite="https://twitter.com/scottjehl/status/411237303579721728">
+						&ldquo;Accessibility is not something we add to a website, but something we start with and risk losing with each enhancement. It is to be retained.&rdquo;
+						<div class="author"><a href="https://twitter.com/scottjehl/status/411237303579721728" target="_blank">Scott Jehl.</a></div>
+					</blockquote>
+					<ul>
+						<li>Mandatory in Ontario (coat to coast soon?)</li>
+						<li>Strong A11Y requirements for all kinds of business</li>
+					</ul>
+				</section>
+
+
 				<!-- Performances -->
 				<section>
 					<h3>Performance</h3>
@@ -151,20 +178,13 @@
 					</ul>
 				</section>
 
-				<!-- Accessibility-->
-				<section>
-					<h3>Accessibility</h3>
-					<ul>
-						<li>Mandatory in Ontario (coat to coast soon?)</li>
-					</ul>
-				</section>
 
 				<!-- Development Frameworks -->
 				<section>
 					<h3>Development Frameworks</h3>
-					<h4>The requirements define the architecture</h4>
+					<h4 style="font-style: italic;">The requirements define the architecture</h4>
 					<ul>
-						<li>JS Frameworks for web apps(U pick)</li>
+						<li>JS Frameworks for web apps (<a href="http://todomvc.com/" target="_blank">TodoMVC</a>: U pick)</li>
 						<li>Hybrid applications (Ionic)</li>
 						<li>Native Applications (iOS/Android/Blackberry)</li>
 						<li>Medavie Bootstrap (JSF/Twitter Bootstrap)</li>
@@ -172,7 +192,7 @@
 				</section>
 
 
-
+				<!-- Keep up to date with the (r)evolutions of the web -->
 				<section>		
 					<!-- Slide #2.2 -->
 					<h2>Keep up to date with the (r)evolutions of the web</h2>
